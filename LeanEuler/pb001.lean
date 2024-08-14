@@ -3,8 +3,6 @@
 
 -- Find the sum of all the multiples of 3 or 5 below 1000.
 
-import Init.Data.List.Basic
-
 def multiples (k: Nat) (stopEx: Nat): List Nat := Id.run do
   let mut r: List (Nat) := []
   for i in [k:stopEx:k] do
